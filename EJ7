@@ -4,41 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style type="text/css">
+        body{
+            color:rgb(158, 20, 20);
+            background-color: rgb(233, 233, 123);
+        }
+        a:link {
+        color: rgb(128, 0, 0);
+        }
+
+        a:visited {
+        color: rgb(83, 5, 94);
+               }
+
+        a:hover {
+        color: rgb(15, 92, 32);
+
+        }
+
+        a:active {
+        color: rgb(255, 145, 0);
+  
+        }
+    
+        </style>
 </head>
 <body>
-    <h1>Internet</h1>
-    <h2>Contenido</h2>
-
-    <ol>
-        <li>Principales protocolos</li>
-        <li>Formas de conectarse</li>
-    </ol>
-    <ol>
-        <li>Principales protocolos</li>
+    <h1 text-align ="center">Lista de enlaces</h1>
+    <ul>
+        <li> Buscadores</li>
         <ul>
-            <li> Transmisión de ficheros:</li>
-            <ul>
-                <li>FTP</li>
-            </ul>
-            <li> Correo electrónico:</li>
-            <ul>
-                <li>IMAP</li>
-                <li>POP</li>
-                <li>SMTP</li>
-            </ul>
+            <li><a href="www.google.es">Google</a>Google</li>
+            <li><a href="https://www.bing.com/?setlang=es">Bing</a></li>
         </ul>
-        <li>Formas de conectarse</li>
-
-    </ol>
-    <dl>
-        <dt>red telefónica conmutada(RTC)</dt>
-        <dd>La línea telefónica de toda la vida</dd>
-        <dt>Red digital de Servicios Integrados (RDSI)<dt>
-        <dd>Una linea telefónica especial.Para acceder a Internet es necesario modem RDSI.</dd>
-        <dt>Línea de abonado digital Asimétrica (ADSL)</dt>
-        <dd>Se basa en la conversion de una línea RTC en una línea de aalta velocidad.Para acceder a Internet es necesario modem ADSL.</dd>
-        <dt>Fibra Optica</dt>
-        <dd>Una línea de fibra óptica.Normalmente la fibra óptica no llega hasta el usuario final, por lo que el término más apropiado es </dd>
-    </dl>
+        <li> Redes Sociales</li>
+        <ul>
+            <li><a href="https://www.facebook.com/?locale=es_ES">Facebook</a></li>
+            <li><a href="https://twitter.com/?lang=es">Twitter</a></li>
+           
+        </ul>
+    </ul>
+    
 </body>
 </html>
