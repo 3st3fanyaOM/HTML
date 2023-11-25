@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Internet</h1>
+    <h2>Contenido</h2>
+
+    <ol>
+        <li>Principales protocolos</li>
+        <li>Formas de conectarse</li>
+    </ol>
+    <ol>
+        <li>Principales protocolos</li>
+        <ul>
+            <li> Transmisión de ficheros:</li>
+            <ul>
+                <li>FTP</li>
+            </ul>
+            <li> Correo electrónico:</li>
+            <ul>
+                <li>IMAP</li>
+                <li>POP</li>
+                <li>SMTP</li>
+            </ul>
+        </ul>
+        <li>Formas de conectarse</li>
+
+    </ol>
+    <dl>
+        <dt>red telefónica conmutada(RTC)</dt>
+        <dd>La línea telefónica de toda la vida</dd>
+        <dt>Red digital de Servicios Integrados (RDSI)<dt>
+        <dd>Una linea telefónica especial.Para acceder a Internet es necesario modem RDSI.</dd>
+        <dt>Línea de abonado digital Asimétrica (ADSL)</dt>
+        <dd>Se basa en la conversion de una línea RTC en una línea de aalta velocidad.Para acceder a Internet es necesario modem ADSL.</dd>
+        <dt>Fibra Optica</dt>
+        <dd>Una línea de fibra óptica.Normalmente la fibra óptica no llega hasta el usuario final, por lo que el término más apropiado es </dd>
+    </dl>
+</body>
+</html>
