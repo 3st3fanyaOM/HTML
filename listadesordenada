@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style type="text/css"></style>
+  </head>
+  <body>
+    <ul>
+      <li><strong> Primer </strong>elemento</li>
+      <li><strong>Segundo</strong> elemento</li>
+      <li><strong>Tercer </strong>elemento</li>
+    </ul>
+
+    <ul type="circle">
+      <li>Elemento 1</li>
+      <li>Elemento 2</li>
+      <li>Elemento 3</li>
+      <li>Elemento 4</li>
+    </ul>
+
+    <ul style="list-style-type: disc" type="square">
+      <li>Elemento 1</li>
+      <li>Elemento 2</li>
+      <li>Elemento 3</li>
+      <li>Elemento 4</li>
+    </ul>
+  </body>
+</html>
