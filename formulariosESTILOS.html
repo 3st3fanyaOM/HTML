@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios2</title>
+    <link rel="stylesheet" href="styles/formularios2.css" />
+    <script>
+      function mostrar_mensaje(mensaje) {
+        alert(mensaje);
+      }
+    </script>
+  </head>
+  <body>
+    <!--Entrada de texto amplio-->
+    <h2>FORMULARIO CON CAMPO DE ENTRADA MULTIPLES LÍNEAS (ÁREA DE TEXTO)</h2>
+    <form action="https://www.w3schools.com/action_page.php" target="_blank">
+      <textarea name="idMensaje" id="" cols="30" rows="10"></textarea
+      ><!--definir alto y ancho-->
+      <br /><br />
+      <input type="submit" value="Enviar" />
+    </form>
+    <h2>Formulario con botones</h2>
+    <form action="https://www.w3schools.com/action_page.php">
+      <button type="button" onclick="alert('Hola, has pulsado el botón!')">
+        <!--mostrar pantalla con msj-->
+        Púlsame!
+      </button>
+      <button
+        type="button"
+        onclick="mostrar_mensaje('Hola, has pulsado el botón que llama a la función');"
+      >
+        Púlsame también!
+      </button>
+      <br /><br />
+      <input type="submit" value="Enviar" class="form-submit-button" />
+    </form>
+    <br /><br />
+    <form action="https://www.w3schools.com/action_page.php">
+      <fieldset>
+        <legend>Datos personales:</legend>
+        <label for="idNombre">Nombre:</label><br />
+        <input
+          type="text"
+          id="idNombre"
+          name="idNombre"
+          value="Default"
+        /><br />
+        <label for="idApellidos">Apellidos:</label><br />
+        <input
+          type="text"
+          id="idApellidos"
+          name="idApellidos"
+          value="Default"
+        />
+        <br /><br />
+        <label for="idCursos">Selecciona un curso:</label><br />
+        <input list="cursos" />
+        <datalist id="cursos"><!--lista que se despliega aparte-->
+          <option value="Lenguaje de Marcas"></option>
+          <option value="Sistemas Operativos"></option>
+          <option value="Inglés"></option>
+          <option value="Interfaces"></option>
+          <option value="Programación"></option>
+        </datalist>
+      </fieldset>
+      <br />
+      <input name="idCursos" type="submit" value="Enviar" class="form-submit-button" />
+    </form>
+  </body>
+</html>

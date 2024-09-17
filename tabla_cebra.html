@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tablas</title>
+    <style>
+
+    table{
+        border-collapse: collapse;/*no aparece el doble borde*/
+        width: 100%;
+    }
+    td{
+        text-align: left;
+        padding: 8px;
+    }
+    tr:nth-child(even){/*cambia de color las filas pares*/
+        background-color: rgb(241, 211, 173);
+    }
+    tr:nth-child(odd){/*cambia de color las filas impares*/
+        background-color: rgb(243, 115, 115);
+    }
+    td:nth-child(even){/*cambia de color las cols pares*/
+        background-color: rgba(192, 152, 230,0.4);/*color con transparencia*/
+    }
+    th:nth-child(odd){/*cambia de color las cols TH CABECERAS impares*/
+        background-color: rgba(152, 230, 226,0.6);/*color con transparencia*/
+    }
+    
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th style="background-color: aliceblue;">Nombre</th><!--cambio SOLO la primera fila-->
+            <th>Apellido</th>
+            <th>Pagado</th>
+        </tr>
+        <tr>
+            <td>Pedro</td>
+            <td>García</td>
+            <td>200€</td>
+        </tr>
+        <tr>
+            <td>Silvia</td>
+            <td>Hurtado</td>
+            <td>150€</td>
+        </tr>
+        <tr>
+            <TD>Laura</TD>
+            <TD>Noesta</TD>
+            <TD>450€</TD>
+        </tr>
+        <tr>
+            <td>Antonio</td>
+            <td>Pavón</td>
+            <td>250€</td>
+        </tr>
+    </table>
+</body>
+</html>

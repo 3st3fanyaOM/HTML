@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tablas2</title>
+    <style>
+      table{
+        border: 3px solid black;
+        border-radius: 10px;
+        
+      }
+      th,
+      td {
+        border: 2px solid rgb(255, 255, 255);/*linea continua*/
+        border-collapse: collapse;/* quitar doble linea*/
+        font-size: 20px; 
+        border-style: dotted;/*borde punteado*/
+        border-radius: 10px;/*mas pixels mas curvo*/
+      }
+
+      th,
+      td{
+        background-color: rgb(169, 185, 180);
+        border-color: brown;
+      }
+  
+    </style>
+  </head>
+  <body>
+    <!--uso de thead, tbody y tfoot-->
+    <table>
+      <caption style="text-align: center">
+        Compras
+      </caption>
+      <!--titulo de tabla-->
+      <thead>
+        <tr>
+          <th>DIA</th>
+          <th>cantidad</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>300</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>100</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>300</td>
+          </tr>
+          <tr>
+          
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Suma</td>
+          <td>400</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

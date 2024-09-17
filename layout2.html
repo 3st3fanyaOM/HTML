@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout</title>
+    <link rel="stylesheet" href="styles/layout2.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Noticias deportivas</h1>
+    </header>
+    <aside>
+      <h2>Secciones</h2>
+      <ul>
+        <li><a href="#futbol"></a>Fútbol</li>
+        <li><a href="#baloncesto"></a>Baloncesto</li>
+        <li>Tenis</li>
+      </ul>
+    </aside>
+    <article>
+      <h2>Última noticia: Lionel Messi firma con un nuevo club.</h2>
+      <figure>
+        <img
+          src="https://fcb-abj-pre.s3.amazonaws.com/img/jugadors/MESSI.jpg"
+          alt="Lionel Messi"
+        />
+        <figcaption>Lionel Messi</figcaption>
+      </figure>
+      <p>
+        El Sevilla club de futbol contrata a Messi para la siguiente temporada
+        de la liga de futbol española.
+      </p>
+    </article>
+    <section>
+      <h2>Otras noticias</h2>
+      <article id="futbol">
+        <details>
+          <summary>Real Madrid gana la copa del Rey</summary>
+          <figure>
+            <img
+              src="https://phantom-marca.unidadeditorial.es/318b52474d3b7e1330c93902d6ec5fa1/resize/660/f/webp/assets/multimedia/imagenes/2023/10/23/16980784866976.jpg"
+              alt="Real Madrid"
+            />
+            <figcaption>Real Madrid</figcaption>
+          </figure>
+          <p>El Real Madrid se impuso por cuatro goles a 2 al Real Sociedad.</p>
+        </details>
+      </article>
+      <article id="baloncesto">
+        <details>
+          <summary>Golden State Warriors gana el campeonato de la NBA</summary>
+          <figure>
+            <img
+              src="https://www.teleadhesivo.com/es/img/nba036-jpg/folder/products-listado-merchant/pegatinas-coches-motos-nba---golden-state-warriors-escudo.jpg"
+              alt="Golden State Warriors"
+            />
+            <figcaption>Golden State Warriors</figcaption>
+          </figure>
+          <p>
+            En el último partido de la NBA los Golden state Warrior aplastaron a
+            los Chicago
+          </p>
+        </details>
+      </article>
+      <article id="tenis">
+        <details>
+          <summary>
+            Paula Badosa cae con contundencia ante Collins en Charleston
+          </summary>
+          <figure>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Badosa_RG21_%2814%29_%2851376409698%29.jpg/800px-Badosa_RG21_%2814%29_%2851376409698%29.jpg"
+              alt="Paula Badosa"
+            />
+            <figcaption>Paula Badosa</figcaption>
+            <p>
+              Paula Badosa, la última en entrar en el cuadro del WTA 500 de
+              Charleston, ha sido de las primeras en despedirse. En su debut
+              este martes, ha caído con contundencia. Esta vez su verdugo ha
+              sido Danielle Collins, con un tanteo de 6-1 y 6-4.
+            </p>
+          </figure>
+        </details>
+      </article>
+    </section>
+    <footer>
+      <p>&copy; Noticias Deportivas. Todos los derechos reservados</p>
+    </footer>
+  </body>
+</html>

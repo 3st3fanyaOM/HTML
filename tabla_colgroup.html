@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td{
+            border-bottom: 1px solid rgb(221, 221, 221);
+        }
+        tr:hover{/*cuando pasas x encima da un color*/
+            background-color: aquamarine;
+        }
+        th:hover{
+            background-color: brown;
+        }
+        td:hover{
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 100%">
+        <colgroup><!--estilo para columnas concretas las 2 primeras-->
+            <col span="2" style="width: 25%; background-color: rgb(24, 226, 226);"><!--25% es responsive-->
+        </colgroup>
+        <tr>s
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Pagado</th>
+        </tr>
+        <tr>
+            <td>Pedro</td>
+            <td>García</td>
+            <td>200€</td>
+        </tr>
+        <tr>
+            <td>Silvia</td>
+            <td>Hurtado</td>
+            <td>150€</td>
+        </tr>
+        <tr>
+            <td>Laura</td>
+            <td>Noesta</td>
+            <td>450€</td>
+        </tr>
+        <tr>
+            <td>Antonio</td>
+            <td>Pavón</td>
+            <td>250€</td>
+        </tr>
+    </table>
+</body>
+</html>

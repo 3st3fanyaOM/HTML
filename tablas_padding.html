@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tablas</title>
+    <style>
+    table,
+    th,
+    td{
+        border: 1px solid gray;
+    }
+    th{
+         text-align: left; /*alinear cabeceras a la izquierda */
+         padding-left: 5px;/*dejar margen a la izquierda en celda cabecera*/
+    }
+    th,
+    td{
+        padding: 15px;/*espacio entre texto y borde de celda*/
+    }
+    </style>
+</head>
+<table>
+    <table style="width: 100%"> <!--ancho 100% responsive-->
+<tr>
+    <th style="width: 25%;">producto</th><!--ajustar cabecera de la tabla-->
+    <th>fecha</th>
+    <th>cantidad</th>
+</tr>
+<th>
+    <td>Pantalla LG</td>
+    <td>20/01/2024</td>
+    <td>25</td>
+</th>
+<tr style="height: 200px;"><!--alto de esta fila-->
+    <td>Teclado Logitech 300h</td>
+    <td>20/01/2024</td>
+    <td>45</td>
+</tr>
+<tr>
+    <td>Alfombrilla solar mac</td>
+    <td>20/01/2024</td>
+    <td>50</td>
+</tr>
+<br>
+<!-- cabeceras verticales -->
+<h2>Cabeceras verticales</h2>
+    <table style="width: 100%;">
+    <caption>LISTADO DE ALUMNOS DE DAW</caption>
+        <tr>
+            <th style="width: 10%;">Nombre</th>
+            <td>Pablo</td>
+            <td>Eva</td>
+            <td>maria</td>
+        </tr>
+        <tr>
+            <th>Apellidos</th>
+            <td>García</td>
+            <td>Valenzuela</td>
+            <td>Gómez</td>
+        </tr>
+        <tr>
+            <th>Edad</th>
+            <td>24</td>
+            <td>35</td>
+            <td>31</td>
+        </tr>
+    </table>
+<br>
+    <h2>AGRUPAR COLS</h2>
+    <table style="width: 100%;">
+        <caption>LISTADO DE ALUMNOS</caption>
+        <tr>
+            <th colspan="2" style="text-align: center;">Nombre Y Apellidos</th><!--agrupo las 2 primeras columnas-->
+            <th style="text-align: center;">Edad</th>
+        </tr>
+        <tr>
+            <td style="padding: 5px;">Carlos</td>
+            <td style="padding: 5px;">Pedraza</td>
+            <td style="padding: 5px;">25</td>
+        </tr>
+        <tr>
+            <td style="padding: 5px;">Rocío</td>
+            <td style="padding: 5px;">Castro</td>
+            <td style="padding: 5px;">31</td>
+        </tr>
+    </table>
+    <table style="width: 100%; border-spacing:20px ;"> <!--spacing entre celda y tabla-->
+        <caption>PROPIEDADES PADDING</caption>
+        <TR>
+            <th style="text-align: center;width: 20%;">PROPIEDAD</th>
+            <th style="text-align: center;">NOMBRE</th>
+        </TR>
+        <TR>
+            <TH style="text-align: center;">PADDING TOP</TH>
+            <TD style="padding-top: 50px;">JUAN CARLOS</TD>
+        </TR>
+        <TR>
+            <TH style="text-align: center;">PADDING BOTTOM</TH>
+            <td style="padding-bottom: 50px;">juan carlos</td>
+        <TR>
+            <th style="text-align: center;">padding left</th>
+            <td style="padding-left: 50px;">juan carlos</td>
+        </TR>
+        <TR>
+            <th style="text-align: center;">padding right</th>
+            <td style="padding-right: 50px;">juan carlos</td>
+        </TR>
+    </table>
+
+    <h2>AGRUPAR COLS y FILAS</h2> <!--AGRUPAR COLUMNAS Y FILAS-->
+    <table style="width: 100%;">
+        <caption>LISTADO DE TRABAJADORES</caption>
+        <tr>
+            <th colspan="2" style="text-align: center;">DATOS IDENTIFICATIVOS</th><!--agrupo las 2 primeras columnas-->
+            <th rowspan="2" style="text-align: center;">Edad</th> <!--combino las 2 filas-->
+        </tr>
+        <tr>
+            <th style="text-align: center;">Nombre</th>
+            <th style="text-align: center;">Apellidos</th>
+            
+        </tr>
+        <tr>
+            <td style="padding: 5px;">Carlos</td>
+            <td style="padding: 5px;">Pedraza</td>
+            <td style="padding: 5px;">25</td>
+        </tr>
+        <tr>
+            <td style="padding: 5px;">Rocío</td>
+            <td style="padding: 5px;">Castro</td>
+            <td style="padding: 5px;">31</td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/formularios2.css" />
+    <title>Inputs</title>
+  </head>
+  <body>
+    <!--pedir usuario y contraseña-->
+    <form action="https://www.w3schools.com/action_page.php">
+        <!-- CAMPO TIPO TEXTO -->
+        <label for="idNombre">Nombre:</label><br>
+        <input type="text" id="idNombre" name="idNombre" required><br><!--campo obligatorio-->
+        <br>
+        <!-- CAMPO TIPO PASSWORD -->
+        <label for="idPwd">Password:</label><br>
+        <input type="password" id="idPwd" name="idPwd" required>
+        <br>
+        <input type="submit" value="Enviar" class="form-submit-button">
+        <!-- boton para resetear-->
+        <input type="reset" value="Limpiar"><!--se aplica a todo el formulario-->
+        <br><br>
+        <!-- CAMPO TIPO RADIO BUTTON -->
+        <input type="radio" id="idHtml" name="lenguaje" value="HTML" checked>
+        <label for="html">HTML</label><br>
+        <input type="radio" id="idCss" name="lenguaje" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="idScript" name="lenguaje" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+        <br><br>
+         <!-- CAMPO TIPO CHECKBOX -->
+         <input type="checkbox" id="idAzul" name="idAzul" value="Azul">
+         <label for="idAzul">Azul</label><br>
+         <input type="checkbox" id="idRojo" name="idRojo" value="Rojo" checked>
+         <label for="idRojo">Rojo</label><br>
+         <input type="checkbox" id="idVerde" name="idVerde" value="Verde">
+         <label for="idVerde">Verde</label>
+         <br><br>
+         <!--seleccionar un color-->
+         <label for="idColor">Selecciona un color: </label><br><br>
+         <input type="color" id="idColor" name="idColor">
+         <br><br>
+         <!--campo tipo fecha-->
+        <label for="idNacimiento">Fecha nacimiento: </label><br><br>
+        <input type="date" name="idNacimiento" id="idNacimiento" min="2024-04-01" max="2024-04-30"><!--fecha mínima-->
+        <br><br>
+        <!--campo tipo fecha y hora-->
+        <label for="idReunión">Fecha y hora de la reunión:</label><br><br>
+        <input type="datetime-local" id="idReunion" name="idReunion" min="2024-04-01T00:00" max="2024-04-30T23:59">
+        <br><br>
+        <!-- CAMPO TIPO EMAIL -->
+        <label for="idEmail">Introduzca su correo electrónico:</label><br><br>
+        <input type="email" id="idEmail" name="idEmail">
+        <br><br>
+        <!-- CAMPO TIPO IMAGE COMO BUTTON SUBMIT -->
+        <!--poner una imágen como boton-->
+        <input type="image"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUExw7EdMoQm1cyK2g9WyGK4ign6nucByF8Q&s"
+            alt="Submit" width="300" height="100">
+        <br><br>
+         <!-- CAMPO TIPO FILE -->
+         <label for="idFile">Selecciona un fichero:</label>
+         <input type="file" id="idFile" name="idFile">
+         <br><br>
+        <!--campo oculto-->
+        <input type="hidden" id="idCodCliente" name="idCodCliente" value="1689"><br><br>
+        <!--campo tipo month-->
+        <label for="idMonth">Selecciona mes y año:</label><br>
+        <input type="month" name="idMonth" id="idMonth">
+        <br><br>
+        <!-- CAMPO TIPO NUMBER -->
+        <label for="idCantidad">Introduzca un número entero:</label><br>
+        <input type="number" id="idCantidad" name="idCantidad">
+        <br><br>
+</form>
+  </body>
+</html>
